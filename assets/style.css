@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color:  #2E2962;
+}
 .container {
   width: 1400px;
   margin: 0 auto;
@@ -441,7 +444,7 @@ ul {
 .client-section {
   width: 907px;
   height: 266px;
-  background-color: #3A3373;
+  background-color: #3a3373;
   margin-top: 50px;
 }
 
@@ -468,29 +471,76 @@ ul {
   padding: 5px;
 }
 
-.client-heading{
+.client-heading {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 15px;
   gap: 5px;
-  
 }
 
-.client-icon{
+.client-icon {
   text-align: end;
   color: white;
-
-
-
 }
 /* sidebar process section  */
 
 .speacilized-section {
-  width: 330;
+  margin-top: 10%;
+}
+#box-three {
+  width: 330px;
   height: 219px;
-  margin-top: 63px;
+  background-color: #3E3575ed;
+ 
+}
+
+#box-three p {
+  margin: 0px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  font-size: 20px;
+  line-height: 110%;
+   color: white;
+}
+
+/* talk section  */
+
+.talk-section {
+  background-color: #3c3475;
+  margin-top: 12%;
+  width: 330px;
+  height: 267px;
+}
+
+.talk-heading {
+  position: relative;
+  top: 5%;
   text-align: center;
 }
-.speacilized-section p {
-  margin-top: 40px;
+
+.talk-heading p {
+  color: #c9b0e0;
+  margin-top: 10px;
 }
+
+.box-1 {
+  width: 260px;
+  height: 48px;
+  background-color: #ec4d8e;
+  margin: auto;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.box-1 p{
+  color: #fff;
+  margin-top: 30px;
+    margin: 0px;
+  position: relative;
+  top: 50%;
+  transform: translate(0,-50%);
+  text-align: center;
+}
+
