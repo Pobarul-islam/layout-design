@@ -77,7 +77,36 @@ ul {
   background-color: #3a3373;
   border-bottom-right-radius: 330px;
   /* position: absolute; */
+
 }
+
+.nav-content ul li a{
+  color: rgba(255, 255, 255, 0.4);
+  list-style: none;
+}
+
+.nav-content ul{
+  color: rgba(255, 255, 255, 0.4);
+  list-style: none;
+  
+}
+.nav-content ul li a{
+  text-decoration: none;
+  
+}
+.nav-content ul li a{
+  text-decoration: none;
+
+  
+}
+
+.nav-content ul{
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+margin: 0 auto;
+margin-top: 34px;
+}
+
 /* banner css  */
 
 .banner {
