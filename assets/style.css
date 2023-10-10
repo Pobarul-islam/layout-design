@@ -7,15 +7,12 @@
 .container {
   width: 1400px;
   margin: 0 auto;
- 
 }
 
-/* banner css  */
-.logo-nav {
-  height: 700px;
-  width: 115px;
-  background-color: red;
-}
+/* .logo{
+  background-color: #3A3373;
+ position: relative;
+} */
 
 /* navbar css  */
 
@@ -69,6 +66,15 @@ ul {
   gap: 40px;
 }
 
+/* horizontal navbar  */
+
+.horizontal-nav {
+  height: 620px;
+  width: 115px;
+  background-color: #3a3373;
+  border-bottom-right-radius: 330px;
+  /* position: absolute; */
+}
 /* banner css  */
 
 .banner {
@@ -80,7 +86,8 @@ ul {
 }
 
 .banner-section {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 3%;
   margin: auto 0;
   justify-content: center;
@@ -114,10 +121,10 @@ ul {
 /* right side horizontal sidebar  */
 
 .sidebar-nav {
-  height: 668px;
-  width: 380px;
+  height: 1814px;
+  width: 330px;
   background-color: #3a3373;
-  padding: 15px;
+  padding: 5px;
 }
 
 .sidebar-nav h2 {
@@ -134,7 +141,7 @@ ul {
   margin-top: 5%;
 }
 
-.icon-vector img{
+.icon-vector img {
   width: 120px;
   height: 110px;
   position: absolute;
@@ -149,13 +156,11 @@ ul {
   width: 58px;
   height: 61px;
   padding: 5px;
-  
- 
 }
 
 .icon-text {
   margin-top: 35%;
-color: #fff;
+  color: #fff;
   font-size: 10px;
   position: relative;
 }
@@ -166,138 +171,227 @@ color: #fff;
   height: 108;
 }
 
-
-
 /* second banner  */
 
-.second-banner{
+.second-banner {
   height: 1600px;
   width: 900px;
-  background-color: #3A3373;
+  background-color: #3a3373;
   margin-top: 40px;
   border-radius: 10px;
- padding: 15px;
-
+  padding: 15px;
 }
 
-.second-banner h2{
+.second-banner h2 {
   color: #fff;
 }
 
-.card-item-victor{
+.card-item-victor {
   width: 195px;
   height: 248px;
 }
-.vector-4{
+.vector-4 {
   position: absolute;
   height: 246px;
   width: 196px;
 }
 
-
-.vector-2 img{
+.vector-2 img {
   margin-top: 8px;
 }
 
-.vector-text-1{
+.vector-text-1 {
   margin-top: 40px;
 }
 
-.vector-img-1 img{
+.vector-img-1 img {
   margin-top: 50px;
   margin-left: 50px;
 }
-.group-2159 img{
-position: relative;
-text-align: center;
-
-}
-
-.second-banner-text{
+.group-2159 img {
   position: relative;
- text-align: center;
- font-size: 11px;
- color: #fff;
+  text-align: center;
 }
 
+.second-banner-text {
+  position: relative;
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+}
 
-.who-is-card{
+.who-is-card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  
 }
 
-.service-content{
+.service-content {
   margin-top: 10%;
-  
 }
-
-
 
 /* right side horizontal banner and card section  */
 
-.service-vector{
+.service-vector {
   position: relative;
 }
 
-.service-img img{
+.service-img img {
   margin-top: 40px;
   margin-left: 50px;
   width: 110px;
   height: 124px;
 }
 
-.service-offer{
+.service-offer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 35px;
 }
 
-.service-tex{
+.service-tex {
   margin-top: 40px;
 }
 
-.card-btn{
+.card-btn {
   position: absolute;
- 
 }
-.card-btn img{
+.card-btn img {
   margin-top: 10px;
   position: absolute;
- 
 }
 
-
-
-.card-btn-text{
+.card-btn-text {
   position: relative;
-  
 }
 
-.card-btn-text p{
-margin-top: 30px;
-text-align: center;
+.card-btn-text p {
+  margin-top: 30px;
+  text-align: center;
   position: relative;
   color: #fff;
 }
 
-.card-btn-1{
+.card-btn-1 {
   margin-top: 15px;
 }
 
-.card-btn-text-1{
+.card-btn-text-1 {
   margin-top: 50px;
 }
 
-.diffrent-victor{
- 
+.diffrent-victor {
   margin-top: 10px;
 }
 
-.cardbtn{
+.cardbtn {
   margin-top: 10px;
 }
-.cardbtntext{
+.cardbtntext {
   margin-top: 40px;
   position: relative;
+}
+
+/* right side horizontal content bar css */
+
+.second-sidebar {
+  width: 300px;
+  height: 540px;
+  margin-top: 15%;
+  margin-left: 3%;
+  border-radius: 10px;
+  background-color: #583876;
+}
+
+.second-content {
+  margin-top: 4%;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+.second-content h3 {
+  margin-top: 4%;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.second-content p {
+  margin-top: 4%;
+  text-align: center;
+  color: #c9b0e0;
+}
+
+.second-sidebar-img {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.second-sidebar-btn {
+  border-radius: 10px;
+  background: linear-gradient(125.08deg, #d214e6, #ec4d8e);
+  box-shadow: 4px 4px 17px rgba(54, 47, 115, 0.5);
+  width: 99px;
+  height: 42px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+/* third sidebar  */
+
+.third-sidebar {
+ width: 300px;
+  height: 520px;
+  margin-top: 15%;
+  margin-left: 3%;
+  border-radius: 10px;
+  background-color: #583876;
+  padding: 5px;
+}
+
+.third-content{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.third-img-1{
+  background-color: #5F35A6;
+  border-radius: 20px;
+  width: 144px;
+  height: 168px;
+    padding: 15px;
+
+ 
+}
+.third-img-1 img{
+  	display:block;
+    margin:0 auto;
+    
+
+}
+
+.third-card-text{
+  margin-top: 20px;
+  color: #fff;
+}
+
+
+.third-content h3{
+  margin-top: 35px;
+  text-align: center;
+  color: #fff;
+}
+.third-content p{
+  margin-top: 12px;
+  text-align: center;
+  color: #C9B0E0;
+}
+
+
+
+.third-img-card-content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+  margin-top: 20px;
+
 }
