@@ -190,13 +190,26 @@ color: #fff;
 }
 .vector-4{
   position: absolute;
+ 
 
 }
 
+.vector-2 img{
+  margin-top: 8px;
+}
 
-.group-2159{
+.vector-text-1{
+  margin-top: 40px;
+}
+
+.vector-img-1 img{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.group-2159 img{
 position: relative;
 text-align: center;
+
 }
 
 .second-banner-text{
@@ -234,4 +247,8 @@ text-align: center;
 .services{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.group-img{
+  margin-top: 15rem;
 }
