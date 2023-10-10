@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Resolve-ExtraboldWd'; 
+    src: url('../fonts/stylesheet.css'); 
+}
+
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+
+
+:root {
+  	
+  	/* fonts */
+  	--font-resolve-extraboldwd: Resolve-ExtraboldWd;
+  	--font-resolve-mediumext: Resolve-MediumExt;
+  	--font-montserrat: Montserrat;
+
+  	/* font sizes */
+  	--font-size-xl: 20px;
+  	--font-size-6xl: 25px;
+  	--font-size-2xs: 11px;
+  	--font-size-xs: 12px;
+  	--font-size-smi: 13px;
+  	--font-size-sm: 14px;
+  	--font-size-3xs: 10px;
+  	--font-size-mini: 15px;
+  	
+  	/* Colors */
+  	--white: #fff;
+  	--color-darkslateblue-100: #473d9a;
+  	--color-darkslateblue-200: #3a3373;
+  	--st: #d214e6;
+  	--color-fuchsia-100: rgba(210, 20, 230, 0.3);
+  	--color-thistle: #c9b0e0;
+  	--color-hotpink-100: rgba(236, 77, 142, 0.3);
+  	--color-blueviolet-100: #5b2ad1;
+  	--color-blueviolet-200: rgba(91, 42, 209, 0.3);
+  	--color-gray: rgba(255, 255, 255, 0.4);
+  	
+  	/* Border radiuses */
+  	--br-sm: 14px;
+  	--br-11xl: 30px;
+  	--br-xl: 20px;
+  	--br-xs: 12px;
+  	--br-3xs: 10px;
+  	
+}
