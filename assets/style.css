@@ -121,7 +121,7 @@ ul {
 /* right side horizontal sidebar  */
 
 .sidebar-nav {
-  height: 1814px;
+  height: 1742px;
   width: 330px;
   background-color: #3a3373;
   padding: 5px;
@@ -434,4 +434,63 @@ ul {
   margin-top: 8px;
   font-size: 20px;
   color: white;
+}
+
+/* our client section  */
+
+.client-section {
+  width: 907px;
+  height: 266px;
+  background-color: #3A3373;
+  margin-top: 50px;
+}
+
+.client-content {
+  width: 184px;
+  height: 112px;
+  background-color: #5f35a6;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.content-div img {
+  height: 48px;
+  width: 104px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.client-logo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.client-heading{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px;
+  gap: 5px;
+  
+}
+
+.client-icon{
+  text-align: end;
+  color: white;
+
+
+
+}
+/* sidebar process section  */
+
+.speacilized-section {
+  width: 330;
+  height: 219px;
+  margin-top: 63px;
+  text-align: center;
+}
+.speacilized-section p {
+  margin-top: 40px;
 }
