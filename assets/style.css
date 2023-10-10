@@ -190,9 +190,10 @@ color: #fff;
 }
 .vector-4{
   position: absolute;
- 
-
+  height: 246px;
+  width: 196px;
 }
+
 
 .vector-2 img{
   margin-top: 8px;
@@ -238,17 +239,65 @@ text-align: center;
 .service-vector{
   position: relative;
 }
-.service-vector img{
-  position: relative;
+
+.service-img img{
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 50px;
+  width: 110px;
+  height: 124px;
 }
 
-.services{
+.service-offer{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  row-gap: 35px;
 }
 
-.group-img{
-  margin-top: 15rem;
+.service-tex{
+  margin-top: 40px;
+}
+
+.card-btn{
+  position: absolute;
+ 
+}
+.card-btn img{
+  margin-top: 10px;
+  position: absolute;
+ 
+}
+
+
+
+.card-btn-text{
+  position: relative;
+  
+}
+
+.card-btn-text p{
+margin-top: 30px;
+text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.card-btn-1{
+  margin-top: 15px;
+}
+
+.card-btn-text-1{
+  margin-top: 50px;
+}
+
+.diffrent-victor{
+ 
+  margin-top: 10px;
+}
+
+.cardbtn{
+  margin-top: 10px;
+}
+.cardbtntext{
+  margin-top: 40px;
+  position: relative;
 }
